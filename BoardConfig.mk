@@ -34,3 +34,4 @@ TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
